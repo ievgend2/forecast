@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>weather</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  </link>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron bg-dark text-white">
+      <h1 class="display-4">City Weather</h1>
+      <p class="lead">This is a simple weather app. Enter the name of the city and will get all the information about
+        the city's weather</p>
+      <hr class="my-4">
+      <div class="input-group mb-3 container">
+        <input type="text" class="form-control" placeholder="City Name" name="city" id="city">
+
+
+        <div class="input-group-append">
+          <button class="btn btn-outline-info" type="submit" id="search">Search</button>
+        </div>
+
+      </div>
+      <fieldset>
+
+        <input type="radio" value="imperial" name="system" id="imperial" checked>
+        <label for="imperial">Fahrenheit</label>
+        <input type="radio" value="metric" name="system" id="metric">
+        <label for="metric">Celsius</label>
+      </fieldset>
+    </div>
+    <div id="info">
+      <h4 id="info_city">City:</h4>
+      <h4 id="info_country">Country:</h4>
+      <h4 id="info_current_weather">Current weather:</h4>
+      <div id="info2">
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="weather.js"></script>
+</body>
+
+</html>
