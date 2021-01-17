@@ -1,4 +1,4 @@
-# Front End 1 Week 5 Assignment Directions
+# 7 day Weather Forecast
 
 Now we can start using APIs to get information from others applications. Lets create a Weather app [like this one](https://mariandreamv.github.io/weatherapp.github.io/).
 
